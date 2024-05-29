@@ -1,9 +1,25 @@
 # Urban Risk Map Cards
-Urban Risk Map reporting cards web-app.
 
-## Development server
+## Overview
+Petabencana reporting cards web-app.
+<br>
+This platform is built using the Angular framework with a few prerequisites. To get started follow the prerequisite and installation steps.
 
-Run `npm run start` (for default deployment jp) or `dep=cc npm run pre-build-tasks && ng serve` (for deployment with code cc) for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+## Prerequisite
+* Install NodeJS = 14.x
+  * Download it from [here](https://nodejs.org/en/)
+* Install NPM
+
+## Installation steps
+* Install dependencies
+  * `npm install`
+* By default, it will be Indonesian deployment and the default deck will be flood, If you want to add a new deployment or deck check code scaffolding for more details.
+
+## Steps to run the App
+* Run `npm run start`. This will start a default deployment Indonesian or `dep=cc npm run pre-build-tasks && ng serve` for deployment with code cc on a dev server http://localhost:4200/
+* The default deck that will be served is `flood`.
+* To test the deployment locally, open `http://localhost:4200/test123/flood` in the browser.
+* To add a new deployment or card deck check the code scaffolding for more details.
 
 ## Code scaffolding
 ### Adding a new deployment
@@ -64,16 +80,18 @@ Run `npm run start` (for default deployment jp) or `dep=cc npm run pre-build-tas
 3. To test the card locally, change the deployment variable in `package.json` > `scripts.start` to $dep for which the environment file was modified in Step 2, run `npm start`, and open `http://localhost:4200/test123/flood/card_name`.
 
 ## Build
+* To generate a production build
+  *  Run `ng build`
+  *  The build artifacts will be stored in the `dist/` directory. Use the `-prod` flag for a production build.
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `-prod` flag for a production build.
+## Troubleshooting Guide
+* If you had trouble while adding a new deployment or new deck through the commands which is given above in the code scaffolding guide. You need to create the folders and add them to the files manually.
 
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
+## Testing
+* **Unit test**
+    * Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+* **End to End test**
+    * Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
 
 ## Further help
 
