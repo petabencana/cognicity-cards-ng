@@ -115,6 +115,30 @@
   }
 }
 
+@media (max-width: 600px) {
+  .footer {
+    width: 100%;
+    padding-inline: 0;
+  }
+  ngx-recaptcha2 {
+    width: 100%;
+    transform:scale(0.8);
+    transform-origin:0 0;
+    display: block;
+  }
+  .review_text {
+    position: relative;
+    bottom: 20px;
+    font-size: 10px;
+  }
+}
+
+ngx-recaptcha2 {
+  width: 240px; 
+  max-width: 100%; 
+  margin: 0 auto;
+}
+
 .rc-anchor-dark {
   border: none;
   background: #808080;

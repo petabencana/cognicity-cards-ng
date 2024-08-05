@@ -28,6 +28,8 @@
     "giverLabels": {
       "dateandtimeHeader": "Pilih tanggal dan waktu untuk mengirimkan barang",
       "dateandtimeDescription": "Kami sedang berusaha meningkatkan efisiensi pengiriman dengan melakukan integrasi. Namun, saat ini Anda perlu mengatur pengiriman langsung kepada penerima. Jika Anda mengirim barang sendiri, harap berhati-hati terutama dalam situasi darurat, dan hindari bertemu di tempat yang sepi.",
+      "selectedDate": "Tanggal",
+      "selectedTime": "Waktu",
       "contactDescription": "Kami hanya akan menghubungi Anda terkait status donasi Anda, dan tidak akan menyimpan rincian kontak dan informasi Anda.",
       "reviewDescription": "Anda akan mengirimkan barang - barang berikut ke",
       "text":"pada",

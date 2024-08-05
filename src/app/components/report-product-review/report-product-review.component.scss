@@ -108,6 +108,10 @@
 }
 
 @media (max-width: 600px) {
+  .footer {
+    width: 100%;
+    padding-inline: 0;
+  }
   ngx-recaptcha2 {
     width: 100%;
     transform:scale(0.8);
@@ -117,7 +121,7 @@
   .review_text {
     position: relative;
     bottom: 20px;
-    font-size: 13px;
+    font-size: 10px;
   }
 }
 

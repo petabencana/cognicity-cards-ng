@@ -28,6 +28,8 @@
     "giverLabels": {
       "dateandtimeHeader": "Select date and time to deliver items.",
       "dateandtimeDescription": "We are working on integrated delivery, however, currently you will need to arrange delivery to the recipient. If you are going in person, please be mindful of the disaster situation and always meet in a public space.",
+      "selectedDate": "Selected Date",
+      "selectedTime": "Selected Time",
       "contactDescription": "We will only contact you about the status of your donation, and will not store your contact details.",
       "reviewDescription": "You will donate the following items to",
       "text":"at",

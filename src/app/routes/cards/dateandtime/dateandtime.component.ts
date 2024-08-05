@@ -42,6 +42,14 @@ export class DateandtimeComponent implements OnInit {
     return this.translate.instant('card.giverLabels.dateandtimeDescription');
   }
 
+  get selecteddate(): string {
+    return this.translate.instant('card.giverLabels.selectedDate');
+  }
+
+  get selectedtime(): string {
+    return this.translate.instant('card.giverLabels.selectedTime');
+  }
+
   openCalendar() {
     flatpickr('#calendar', {
       inline: true,
