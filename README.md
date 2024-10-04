@@ -1,4 +1,4 @@
-# Urban Risk Map Cards
+# Cognicity Cards
 Urban Risk Map reporting cards web-app.
 
 ## Development server
